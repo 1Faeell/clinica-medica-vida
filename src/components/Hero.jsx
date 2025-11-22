@@ -4,31 +4,26 @@ import { ChevronRight } from "lucide-react";
 import heroImage from "../assets/images/image-hero.png";
 
 // ==================== HERO ====================
-const Hero = () => {
+function Hero() {
   return (
     <section
       id="inicio"
       className="pt-25 pb-15 px-6 md:px-10 flex justify-center"
     >
-      <div className="container mx-auto grid lg:grid-cols-2 gap-5 max-lg:justify-center items-center max-w-7xl">
+      <div className="container mx-auto grid lg:grid-cols-2 gap-10  items-center max-w-7xl justify-items-center">
         {/* ==================== ESQUERDA ==================== */}
-        <div className="space-y-6 text-left max-lg:text-center">
-          <div className="inline-block bg-blue-100 text-blue-600 px-4 py-2 rounded-full text-sm font-semibold">
-            ✨ Sua saúde em primeiro lugar
-          </div>
-
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
+        <div className="space-y-6 text-left max-lg:text-center ">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[50px] font-bold text-gray-900 leading-tight">
             Cuidando de você{" "}
             <span className="block">
-              com
+              com{" "}
               <span className="bg-linear-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
-                {" "}
                 excelência
               </span>
             </span>
           </h1>
 
-          <p className="text-lg md:text-xl text-gray-600 max-w-lg mx-auto md:mx-0">
+          <p className="text-lg md:text-xl text-gray-600 max-w-lg max-lg:mx-auto max-lg:justify-center">
             Atendimento médico de qualidade com profissionais especializados e
             tecnologia de ponta.
           </p>
@@ -63,16 +58,16 @@ const Hero = () => {
         </div>
 
         {/* ==================== DIREITA - IMAGEM ==================== */}
-        <div className="flex justify-center md:justify-end">
+        <div className="flex justify-center lg:justify-end mt-10 lg:mt-0">
           <img
             src={heroImage}
             alt="Médica especialista"
-            className="w-full max-w-lg object-contain"
+            className="w-full max-w-xl object-contain md:max-w-lg sm:max-w-md"
           />
         </div>
       </div>
     </section>
   );
-};
+}
 
 export default Hero;

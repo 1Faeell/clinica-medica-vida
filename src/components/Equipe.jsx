@@ -60,18 +60,18 @@ function Equipe() {
         </div>
 
         {/* ==================== GRID DE MÉDICOS ==================== */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-25 sm:gap-15 md:m-10 md:gap-25">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-25 sm:gap-15 md:m-5 md:gap-25">
           {medicos.map((medico, index) => (
             <div
               key={index}
-              className="relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 pt-20 px-6 pb-6 overflow-visible"
+              className="relative bg-linear-to-b from-transparent to-white rounded-b-4xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 pt-20 px-6 pb-6 overflow-visible"
             >
               {/* ==================== FOTO DO MÉDICO ==================== */}
-              <div className="absolute -top-12 sm:-top-45 md:-top-30 left-1/2 transform -translate-x-1/2">
+              <div className="absolute -top-12 sm:-top-45 md:-top-32 xl:-top-32  left-1/2 transform -translate-x-1/2">
                 <img
                   src={medico.foto}
                   alt={`Foto de ${medico.nome}`}
-                  className="w-40 h-40 sm:w-106 sm:h-106 md:w-60 md:h-60 object-contain drop-shadow-xl"
+                  className=" w-40 h-40 sm:w-106 sm:h-106 md:w-60 md:h-60 xl:w-60 xl:h-60 object-contain drop-shadow-xl"
                 />
               </div>
 
