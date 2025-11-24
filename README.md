@@ -22,5 +22,6 @@ Site institucional moderno e responsivo desenvolvido para a Clínica Vida+, ofer
 - **📅 Agendamento Online** - Formulário completo para marcar consultas com seleção de especialidade, data e horário
 
 ## 🎨 Preview
-<img width="1423" height="786" alt="image" src="https://github.com/user-attachments/assets/a4e79291-7d63-40a0-82f9-5e334f96ebf0" />
+[<img width="1423" height="786" alt="image" src="https://github.com/user-attachments/assets/b7fc3019-0b80-48f9-803b-e7093eb27a08" />](https://clinica-medica-vida.vercel.app/)
+
 
